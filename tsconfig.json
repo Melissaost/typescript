@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        //onde vai salvar o javascript 
+        "outDir": "dist/js",
+        //qual a versao que vai escrever o js
+        "target": "ES6",
+        //nao criar pasta js se tiver erro
+        "noEmitOnError": true
+    },
+    //onde esta o ts
+    "include": [
+        "app/**/*"
+    ]
+}
