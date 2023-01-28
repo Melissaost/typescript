@@ -5,7 +5,9 @@
         //qual a versao que vai escrever o js
         "target": "ES6",
         //nao criar pasta js se tiver erro
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        //nao adotar valor any nas variaveis 
+        "noImplicitAny": true
     },
     //onde esta o ts
     "include": [
